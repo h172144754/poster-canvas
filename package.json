@@ -1,6 +1,6 @@
 {
   "name": "poster-canvas",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "小程序海报组件",
   "miniprogram":"components",
   "main": "index.js",

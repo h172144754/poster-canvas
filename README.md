@@ -28,7 +28,7 @@ yarn add poster-canvas --production
 ```json
 {
   "usingComponents": {
-	"poster-canvas": "poster-canvas/poster",
+	"poster-canvas": "poster-canvas/poster/index",
   }
 }
 ```
@@ -37,9 +37,9 @@ yarn add poster-canvas --production
 
 
 ```html
-<poster id="poster" config="{{config}}" bind:success="onPosterSuccess" bind:fail="onPosterFail">
+<poster-canvas id="poster" config="{{config}}" bind:success="onPosterSuccess" bind:fail="onPosterFail">
     <button>点击生成海报</button>
-</poster>
+</poster-canvas>
 
 
 <view class="canvas_code_view" style="left: {{imgURL?'0':'-1000rpx'}};">
