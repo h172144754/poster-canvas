@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<poster id="poster" config="{{config}}" bind:success="onPosterSuccess" bind:fail="onPosterFail">
+    <button>点击生成海报</button>
+</poster>
+
+
+<view class="canvas_code_view" style="left: {{imgURL?'0':'-1000rpx'}};">
+    <view class="canvas_mask">
+        <view class="canvas_box">
+            <view class="canvas_box_img">
+                <image class="pic" show-menu-by-longpress src="{{imgURL}}"></image>
+            </view>
+        </view>
+    </view>
+</view>

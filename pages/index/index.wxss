@@ -1,0 +1,48 @@
+.pic {
+  width: 100%;
+  height: 100%;
+  /* height: 1160rpx; */
+}
+
+ /* erweima */
+ .canvas_code_view {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.canvas_code_view .canvas_mask {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, .6);
+  position: relative;
+}
+
+.canvas_box {
+  width: 680rpx;
+  height: 928rpx;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 99;
+}
+
+.canvas_box_img{
+  width: 100%;
+  height: 100%;
+}
+
+.canvas_close{
+  height: 60rpx;
+  width: 60rpx;
+  position: absolute;
+  top: -96rpx;
+  right: 0;
+  z-index: 9999;
+}
+

@@ -1,0 +1,13 @@
+{
+  "name": "poster-canvas",
+  "version": "1.0.2",
+  "description": "小程序海报组件",
+  "miniprogram":"components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
